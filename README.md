@@ -32,7 +32,7 @@ Clip-Reid地址：https://github.com/Syliz517/CLIP-ReID
 
 链接: https://pan.baidu.com/s/121OOzKCH5Wal4PeNWOhi0A?pwd=6cpc 提取码: 6cpc 
 
-
+10358 /data7/nyz/CLIP-ReID-master
 
 ### 车辆计数
 
@@ -40,7 +40,7 @@ Clip-Reid地址：https://github.com/Syliz517/CLIP-ReID
 
 链接: https://pan.baidu.com/s/14UQv6ms5aYuG2ZUsE4KTag?pwd=7pjv 提取码: 7pjv 
 
-
+10358 /data7/nyz/nyz_flask_vehicle_count
 
 ### 异物检测
 
@@ -50,7 +50,7 @@ TransCD地址：https://github.com/wangle53/TransCD
 
 链接: https://pan.baidu.com/s/1lmFvYyMGmIdzbztrCIaNRQ?pwd=5t2c 提取码: 5t2c 
 
-
+10358 /data1/nyz/TransCD-main
 
 ### 关键设备计数
 
@@ -60,7 +60,7 @@ langsam地址：https://github.com/luca-medeiros/lang-segment-anything
 
 链接: https://pan.baidu.com/s/1p3Q20_PjRicMHN-hRvmUqw?pwd=3qwm 提取码: 3qwm 
 
-
+10358 /data7/nyz/lang-segment-anything-main
 
 ### 异常行为识别
 
@@ -68,7 +68,7 @@ langsam地址：https://github.com/luca-medeiros/lang-segment-anything
 
 链接: https://pan.baidu.com/s/1k1JPUAApsC822_ap3UWnAw?pwd=6fwe 提取码: 6fwe 
 
-
+10358 /data7/nyz/nyz_flask_anomaly_detection
 
 ### 设备健康评价
 
@@ -78,7 +78,7 @@ langsam地址：https://github.com/luca-medeiros/lang-segment-anything
 
 链接: https://pan.baidu.com/s/1aJspVDWLERPwHOjIW7Fsvw?pwd=btkf 提取码: btkf 
 
-
+10358 /data7/nyz/device_health_assessment
 
 
 
