@@ -1,0 +1,43 @@
+关键人员接口-多个摄像头总计数，支持去重：
+http://ip:8022/person_count_video
+参数：
+{
+    "cameraList": [
+        {
+            "id": "1",
+            "url": "rtsp://ip:10054/live/g64yHmQIg"
+        },
+        {
+            "id": "2",
+            "url": "rtsp://ip:10054/live/XfxsHiQSR"
+        }
+    ],
+    "plot": false,
+    "threshold": 0.2,
+    "unique":"唯一标识，判断是否起新线程开启算法"
+}
+开启识别结果返回
+{
+	"code":"状态码，比如200代表成功，非200代表失败";
+    "result":"成功，或者失败原因"
+}
+实时识别结果放入kfk
+topic:"personcount "
+消息体（json）：
+{
+"unique":"入参的唯一标识",
+"result":"unique线程的咱们算法的json结果"
+}
+
+停止接口：
+{
+    "unique":"唯一标识，停止此线程算法"
+}
+停止识别结果返回
+{
+	"code":"状态码，200代表成功，非200代表失败";
+    "result":"成功，或者失败原因"
+}
+
+按unique组开启线程和关闭线程，还是来几路视频，都去重。以组为单位开启线程和关闭线程。
+

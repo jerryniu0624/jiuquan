@@ -1,0 +1,27 @@
+docker run --gpus all -it -p 8022:8022 person_count:v0
+
+http://127.0.0.1:8022/person_count_video?url=/mnt/sde/niuyuanzhuo/CLIP-ReID-master/nyz_flask_person_count/app/test_images_dataset/c1s1_002301.mp4&id=1&index=2&url=/mnt/sde/niuyuanzhuo/CLIP-ReID-master/nyz_flask_person_count/app/test_images_dataset/c2s1_001801.mp4&id=2&index=2&threshold=0.2
+
+person_count_video
+{
+    "cameraList":[
+        {
+            "id": "1",
+            "url": "rtsp://49.232.253.40:10054/live/xMhEzVUIg"
+        },{
+            "id": "2",
+            "url": "rtsp://49.232.253.40:10054/live/8xxsz48IR"
+        }
+        
+        
+    ],
+    "plot": true,
+    "threshold": 0.2
+}
+xMhEzVUIg
+8xxsz48IR
+
+3_6szVUIR
+7oT8kVUIg
+LbQ8z48SR
+SumQk4UIR
